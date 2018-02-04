@@ -11,7 +11,7 @@
  */
 
 
-public class SolutInsertIntoACyclicSortedListion {
+public class InsertIntoACyclicSortedList {
     /*
      * @param node: a list node in the list
      * @param x: An integer
