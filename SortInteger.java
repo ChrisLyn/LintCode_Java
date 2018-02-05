@@ -24,6 +24,8 @@ public class SortInteger {
         // pivot = A[start] // pivot = A[end];
         // left <= right not left < right
         while (left  <= right) {
+
+            // 3. left <= right not left < right, otherwise partition will not be even
             while (left <= right && A[left] < pivot) {
                 left++;
             }
